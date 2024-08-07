@@ -5,6 +5,7 @@ commands:
   broadcast:
     description: Send en besked til alle spillere.
     usage: /broadcast <besked>
-  listsounds:
-    description: Lists all available sounds
-    usage: /<command>
+    permission: broadcast.use
+    permission-message: §8[ §e§lBROADCAST §8] §cNo Access!
+    aliases:
+      - bc

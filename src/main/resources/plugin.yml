@@ -1,0 +1,10 @@
+name: Broadcast
+version: 1.0
+main: dk.noxitech.main
+commands:
+  broadcast:
+    description: Send en besked til alle spillere.
+    usage: /broadcast <besked>
+  listsounds:
+    description: Lists all available sounds
+    usage: /<command>

@@ -42,8 +42,12 @@ public class broadcast implements CommandExecutor {
             String subtitle = Color.getColored(TitleMsg);
 
             for (Player player : Bukkit.getOnlinePlayers()) {
-                sendTitle(player, title, subtitle, 10, 70, 20);
-                playBroadcastSound(player);
+                if(plugin.getConfig().getBoolean("Configs.Title")) {
+                    sendTitle(player, title, subtitle, 10, 70, 20);
+                }
+                if(plugin.getConfig().getBoolean("Configs.PingSound")){
+                    playBroadcastSound(player);
+                }
             }
             return true;
         }

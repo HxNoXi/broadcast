@@ -6,6 +6,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.event.Listener;
 
 import java.util.Objects;
+import java.util.ResourceBundle;
 
 public final class main extends JavaPlugin implements Listener {
 

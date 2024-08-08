@@ -1,6 +1,6 @@
 name: Broadcast
-version: 1.1
-main: dk.noxitech.main
+version: 1.2
+main: dk.noxitech.broadcast.main
 commands:
   broadcast:
     description: Send en besked til alle spillere.
